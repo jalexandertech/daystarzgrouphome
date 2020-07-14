@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: #fff;
+  color: #000;
+  font-family: Noto Sans, 'Arial', 'San-serif';
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+
+.mr-auto {
+	margin-left: 58%;
+}
+.page-banner {
+  background: url("../../../images/Happy_child_and_school_counselor.jpg") top center no-repeat;
+  height: 600px;
+  position: relative;
+	background-size:cover;
+
+}
+.page-banner h1 {
+  position: absolute;
+  left: 0;
+  color: #fff;
+	 font-family: 'Noto Sans', 'Arial', San-serif;
+	font-weight: 400;
+	font-size: 35px;
+  margin-top: 100px;
+display:inline-block;
+  bottom: 20px;
+  text-transform: uppercase;
+  background: rgba(65, 166, 192, 0.60);
+  padding: 25px 30px 25px 50px;
+}
+.navbar {
+  background: linear-gradient(to bottom, rgba(33, 161, 196, 1.00), rgba(125, 185, 232, 0));
+	position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2000000;
+}
+.fixed-top{
+	position: fixed;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+
+}
+.row:before, .row:after{
+	content: "";
+	display: table;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+
+footer{
+  font-family: 'Noto Sans', 'Arial', 'San-serif';
+  font-size: 16px;
+	left: 0;
+	right:0;
+	bottom:0;
+	background-color: #6caabf;
+	 text-align: center;
+	padding-bottom: 10px;
+	border-top:1px solid #aaaaaa; 
+	margin-top: 0; 
+	position: relative;
+
+}
+
+
+footer a{
+	color:#000;
+	font-family: 'Noto Sans', 'Arial', 'San-serif';
+}
+
+footer a:hover{
+	color:#74B7CE;
+	text-decoration: none;
+}
+
+
+footer img{
+	width: 200px;
+}
+
